@@ -9,7 +9,7 @@ function UserInput({onChange, userInput}) {
         </p>
         <p>
           <label htmlFor="">Annual Investment</label>
-          <input type="number" value={userInput.anuualInvestment} onChange={(e) => onChange('annualInvestment', e.target.value )} required />
+          <input type="number" value={userInput.annualInvestment} onChange={(e) => onChange('annualInvestment', e.target.value )} required />
         </p>
       </div>
       <div className="input-group">
